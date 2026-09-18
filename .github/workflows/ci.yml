@@ -31,5 +31,5 @@ jobs:
       run: dotnet test --no-build --configuration Release
 
     - name: Run code
-      run: dotnet run --project LaborationDag2/Elves/Elves.csproj
+      run: dotnet run --project Elves/Elves.csproj
     
