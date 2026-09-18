@@ -4,15 +4,15 @@ using System.Text;
 
 namespace Elves.Tests
 {
-    // 1113222113
 
+    // 1113222113
     public class SequencesTest
     {
         [Fact]
         public void CountSameNumbers_ShouldReturnNumberOfsameChifre()
         {
             // Arrange
-            var sut = new Seq
+            var sut = new Sequences();
             var expected = "3113322113";
 
             //act
