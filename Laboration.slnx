@@ -3,6 +3,8 @@
   <Project Path="Common/Common.csproj" />
   <Project Path="Elves.Tests/Elves.Tests.csproj" Id="fe5785a1-aebe-488f-80ab-87b251c04639" />
   <Project Path="Elves/Elves.csproj" Id="9d0404c9-e4b7-4f09-b3f5-dafa2731a6f4" />
+  <Project Path="Floors.Tests/Floors.Tests.csproj" Id="66f5c0f1-3e08-4250-b37c-b85e37b97333" />
+  <Project Path="Floors/Floors.csproj" Id="94fd7fcd-a166-4342-810f-fa1238fa2c84" />
   <Project Path="Y2021D01.Tests/Y2021D01.Tests.csproj" />
   <Project Path="Y2021D01/Y2021D01.csproj" />
 </Solution>
