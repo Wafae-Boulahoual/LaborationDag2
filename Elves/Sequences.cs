@@ -13,11 +13,11 @@ namespace Elves
             {
                 int count = 1;
 
-                while (i < number.Length - 1 && number[i] == number[i + 1])
-                {
-                    count++;
-                    i++;
-                }
+                //while (i < number.Length - 1 && number[i] == number[i + 1])
+                //{
+                //    count++;
+                //    i++;
+                //}
                 result.Append(count).Append(number[i]);
                 //  result += new StringBuilder().Append(count).Append(number[i]).ToString();
             }
