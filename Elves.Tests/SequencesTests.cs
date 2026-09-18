@@ -13,12 +13,12 @@ namespace Elves.Tests
         {
             // Arrange
             var sut = new Sequences();
-            var expected = "3113322113";
+           // var expected = "3113322113";
 
             //act
             var actual = sut.CountSameChifres(new int[] { 1, 1, 1, 3, 2, 2, 2, 1, 1, 3 });
             //assert
-            Assert.Equal(expected, actual);
+            Assert.Equal("3113322113", actual);
         }
 
         [Theory]
